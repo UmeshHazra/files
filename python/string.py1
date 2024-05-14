@@ -1,0 +1,26 @@
+str="neiohoIUhfoenIhwhLLKF"
+print(str.upper())
+
+str1="HELLO !!!!"
+print(str1.rstrip("!"))
+
+
+appleprice=210.
+budget=200
+if(budget>=appleprice):
+    print("Alexa, add 1 kg apple in cart.")
+else:
+    print("Alexa ,do not add apple in cart")
+
+
+
+num = int (input("Enter the value of num: "))
+if(num<0):
+    print("Number is negative.")
+elif(num == 0):
+    print("Number is zero.")
+else:
+    print("Number is possitive.")
+    
+for k in range(4,5):
+    print(k)
